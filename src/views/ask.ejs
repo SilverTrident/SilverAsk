@@ -1,0 +1,28 @@
+<%- include('partials/header.ejs')%>
+
+<body>   
+    <%- include('partials/navbar')%>
+  <div class="container">      
+    <div class="card" id="form-ask">
+        <div class="card-header" id="card-div-title">
+            <h2>Realize sua pergunta</h2>
+        </div>
+        <div class="card-body" id="card-div-body">
+            <form action="/saveask" method="post">
+                <div class="form-group" >
+                  <input id="field-user-ask" type="text" class="form-control" name="titleask" placeholder="Digite um Titulo para a pergunta">
+                </div>
+                <div class="form-group">
+                    <label>Digite sua Pergunta:</label>
+                    <textarea id="field-user-ask" class="form-control" name="areaask" rows="3"></textarea>
+                </div>
+                <button id ="btn-ask" class="btn btn-secondary btn-lg btn-block">Perguntar</button>
+                
+            </form>
+        </div>
+      </div>
+  </div>
+</body>
+
+<%- include('partials/footer.ejs')%>
+

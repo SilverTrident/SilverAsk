@@ -1,0 +1,28 @@
+body{
+    background-color: #B8696C;
+}
+#form-ask{
+    margin-top: 10%;
+    border-radius: 5px;
+    border-color:#B5C5BB ;
+}
+#card-div-title{
+    background: #718177;
+    border-radius: 5px;
+    border-color: #718177 ;
+    color: #B8696C;
+}
+#card-div-body{
+    background: #B5C5BB;
+    color: #B8696C;
+}
+#field-user-ask{
+    background: #B8696C;
+    border-radius: 5px;
+    border-color:#B8696C ;
+    color: #B5C5BB;
+}
+#btn-ask{
+    background: #343A40;
+    
+}
